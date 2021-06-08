@@ -1,0 +1,25 @@
+2020/09/18 10:29:33 [notice] 30004#18580: signal process started
+2020/09/18 10:29:33 [error] 30004#18580: CreateFile() "./logs/nginx.pid" failed (2: The system cannot find the file specified)
+2020/09/18 10:29:44 [error] 45364#24764: *1 lua tcp socket connect timed out, when connecting to 127.0.0.1:6379, client: 127.0.0.1, server: localhost, request: "GET /redis HTTP/1.1", host: "127.0.0.1"
+2020/09/18 10:29:54 [error] 45364#24764: *1 lua entry thread aborted: runtime error: .../openresty-1.13.6.2-win64/lualib/testcode/helloworld.lua:20: attempt to concatenate local 'name' (a nil value)
+stack traceback:
+coroutine 0:
+	.../openresty-1.13.6.2-win64/lualib/testcode/helloworld.lua: in function <.../openresty-1.13.6.2-win64/lualib/testcode/helloworld.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /helloworld HTTP/1.1", host: "127.0.0.1"
+2020/09/18 10:29:59 [error] 45364#24764: *3 lua entry thread aborted: runtime error: .../openresty-1.13.6.2-win64/lualib/testcode/helloworld.lua:20: attempt to concatenate local 'name' (a nil value)
+stack traceback:
+coroutine 0:
+	.../openresty-1.13.6.2-win64/lualib/testcode/helloworld.lua: in function <.../openresty-1.13.6.2-win64/lualib/testcode/helloworld.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /helloworld HTTP/1.1", host: "127.0.0.1"
+2020/09/18 10:30:03 [error] 45364#24764: *4 lua entry thread aborted: runtime error: .../openresty-1.13.6.2-win64/lualib/testcode/helloworld.lua:20: attempt to concatenate local 'name' (a nil value)
+stack traceback:
+coroutine 0:
+	.../openresty-1.13.6.2-win64/lualib/testcode/helloworld.lua: in function <.../openresty-1.13.6.2-win64/lualib/testcode/helloworld.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /helloworld HTTP/1.1", host: "127.0.0.1"
+2020/09/18 14:25:52 [error] 35272#27064: *1 lua tcp socket connect timed out, when connecting to 127.0.0.1:6379, client: 127.0.0.1, server: localhost, request: "GET /redis HTTP/1.1", host: "127.0.0.1"
+2020/09/18 14:25:52 [error] 35272#27064: *1 CreateFile() "./html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/redis"
+2020/10/31 21:19:52 [emerg] 17448#22020: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2020/10/31 21:19:55 [emerg] 27544#2920: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2020/10/31 21:20:06 [emerg] 30280#20604: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2020/10/31 21:21:49 [error] 14436#30664: *3 failed to load external Lua file "D:/123/Courseware/Nginx/openresty-1.13.6.2-win64/openresty-1.13.6.2-win64/lualib/testcode/helloworld.lua": cannot open D:/123/Courseware/Nginx/openresty-1.13.6.2-win64/openresty-1.13.6.2-win64/lualib/testcode/helloworld.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /helloworld?name=abc HTTP/1.1", host: "127.0.0.1"
+2020/10/31 21:22:18 [error] 14436#30664: *3 failed to load external Lua file "D:/123/Courseware/Nginx/openresty-1.13.6.2-win64/openresty-1.13.6.2-win64/lualib/testcode/helloworld.lua": cannot open D:/123/Courseware/Nginx/openresty-1.13.6.2-win64/openresty-1.13.6.2-win64/lualib/testcode/helloworld.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /helloworld?name=clay HTTP/1.1", host: "127.0.0.1"
+2020/10/31 21:22:59 [error] 27084#31096: *5 failed to load external Lua file "D:/123/Courseware/Nginx/openresty-1.13.6.2-win64/openresty-1.13.6.2-win64/lualib/testcode/helloworld.lua": cannot open D:/123/Courseware/Nginx/openresty-1.13.6.2-win64/openresty-1.13.6.2-win64/lualib/testcode/helloworld.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /helloworld?name=clay HTTP/1.1", host: "127.0.0.1"
+2020/10/31 21:23:00 [error] 27084#31096: *5 failed to load external Lua file "D:/123/Courseware/Nginx/openresty-1.13.6.2-win64/openresty-1.13.6.2-win64/lualib/testcode/helloworld.lua": cannot open D:/123/Courseware/Nginx/openresty-1.13.6.2-win64/openresty-1.13.6.2-win64/lualib/testcode/helloworld.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /helloworld?name=clay HTTP/1.1", host: "127.0.0.1"
+2020/10/31 21:23:26 [notice] 15156#31740: signal process started

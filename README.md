@@ -22,3 +22,8 @@
 请求合并：来个范例-》http://example.com/??style1.css,style2.css,foo/style3.css，以上将原先3个请求合并为1个请求，如果你担心文件被用户的浏览器缓存而没有及时更新，你依旧可以带上一个版本号的参数，如下：http://example.com/??style1.css,style2.css,foo/style3.css?v=102234
 
 nginx+lua+redis---实现多级缓存>3
+
+# 具体配置请参考相关pdf文档
+...
+
+希望为.net开源社区尽绵薄之力，探lu者###一直在探索前进的路上###（QQ:529987528）
